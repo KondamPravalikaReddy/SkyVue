@@ -36,15 +36,7 @@ User-friendly error handling
 Keyboard navigation support
 
 🚀 Live Demo
-👉 Live Demo (Replace with actual link)
-
-👉 Screenshots:
-
-Desktop View 📸
-
-Mobile View 📸
-
-Search Interaction 📸
+👉 Live Demo
 
 📁 Project Structure
 bash
