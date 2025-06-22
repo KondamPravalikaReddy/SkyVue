@@ -38,19 +38,6 @@ Keyboard navigation support
 🚀 Live Demo
 👉 Live Demo
 
-📁 Project Structure
-bash
-Copy
-Edit
-SkyVue/
-│
-├── index.html     # Main HTML structure
-├── style.css      # All styling and design (glassmorphism, animations)
-├── script.js      # JavaScript logic (API calls, DOM manipulation)
-├── LICENSE          # The MIT License file 
-└── README.md      # Project documentation
-
-
 🛠️ Technologies Used
 HTML5 — Semantic markup
 
