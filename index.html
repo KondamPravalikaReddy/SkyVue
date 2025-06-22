@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyVue - Modern Weather Forecasting</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="particles" id="particles"></div>
+    
+    <div class="container">
+        <header class="header">
+            <h1>SkyVue</h1>
+            <p>Your modern weather companion with beautiful forecasts</p>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Enter city name..." id="cityInput">
+                <button class="search-btn" onclick="searchWeather()">Search</button>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Fetching weather data...</p>
+        </div>
+
+        <div class="error" id="error">
+            <p>Unable to fetch weather data. Please try again.</p>
+        </div>
+
+        <div class="weather-grid" id="weatherContent">
+            <div class="main-weather">
+                <div class="weather-icon" id="mainIcon">☀️</div>
+                <div class="temperature" id="temperature">25°C</div>
+                <div class="location" id="location">New York, NY</div>
+                <div class="description" id="description">Sunny</div>
+                
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Humidity</div>
+                        <div class="detail-value" id="humidity">60%</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Wind Speed</div>
+                        <div class="detail-value" id="windSpeed">10 km/h</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Pressure</div>
+                        <div class="detail-value" id="pressure">1013 hPa</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Visibility</div>
+                        <div class="detail-value" id="visibility">10 km</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="forecast-card">
+                    <div class="forecast-title">5-Day Forecast</div>
+                    <div id="forecast">
+                        <div class="forecast-item">
+                            <span class="forecast-day">Today</span>
+                            <span class="forecast-icon">☀️</span>
+                            <span class="forecast-temp">25°/18°</span>
+                        </div>
+                        <div class="forecast-item">
+                            <span class="forecast-day">Tomorrow</span>
+                            <span class="forecast-icon">⛅</span>
+                            <span class="forecast-temp">23°/16°</span>
+                        </div>
+                        <div class="forecast-item">
+                            <span class="forecast-day">Wednesday</span>
+                            <span class="forecast-icon">🌧️</span>
+                            <span class="forecast-temp">20°/14°</span>
+                        </div>
+                        <div class="forecast-item">
+                            <span class="forecast-day">Thursday</span>
+                            <span class="forecast-icon">⛈️</span>
+                            <span class="forecast-temp">18°/12°</span>
+                        </div>
+                        <div class="forecast-item">
+                            <span class="forecast-day">Friday</span>
+                            <span class="forecast-icon">☀️</span>
+                            <span class="forecast-temp">26°/19°</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
