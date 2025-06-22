@@ -36,7 +36,7 @@ User-friendly error handling
 Keyboard navigation support
 
 🚀 Live Demo
-👉 Live Demo
+👉 https://vercel.com/kondam-pravalika-reddys-projects/skyvue
 
 🛠️ Technologies Used
 HTML5 — Semantic markup
