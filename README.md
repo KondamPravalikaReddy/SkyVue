@@ -149,4 +149,4 @@ OpenWeatherMap API for real-time data
 
 ⭐ If you like this project, please consider giving it a ⭐ on GitHub!
 
-Coded with ❤️ and lots of debugging 🔧 — © 2025 SykVue.
+Coded with ❤️ and lots of debugging 🔧 — © 2024 SykVue.
